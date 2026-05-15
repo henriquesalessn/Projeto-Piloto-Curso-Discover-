@@ -39,11 +39,12 @@ body * {
   color: var(--text-color-);
 }
 
-/* container */
+/* container
+alterei a margin para 0.5px, porém, era 56px qualquer coisa voltar */
 div#container {
   width: 100%;
   max-width: 588px;
-  margin: 56px auto 0px;
+  margin: 0.5px auto 0px;
   padding: 0px 24px;
 }
 
